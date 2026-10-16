@@ -1,0 +1,35 @@
+import TropicalCurves.UnitNoNewVertices
+import TropicalCurves.UnitHarmonic
+import TropicalCurves.UnitCellConvexity
+import TropicalCurves.UnitLengthModel
+
+/-! Reproducible dependency audit of the unit-length theorem and its bridges. -/
+
+#print axioms TropicalCurves.UnitNoNewVertices.unit_length_abel_no_new_vertices
+#print axioms TropicalCurves.UnitNoNewVertices.no_new_vertices
+#print axioms TropicalCurves.UnitNoNewVertices.target_preimage_iff
+#print axioms TropicalCurves.UnitNoNewVertices.liftedCell_projects
+#print axioms TropicalCurves.UnitNoNewVertices.induced_cell_eq_convexHull_corners
+#print axioms TropicalCurves.UnitNoNewVertices.inducedCells_finite
+#print axioms TropicalCurves.UnitLiftedCells.pullbackCell_eq_projectedSlots
+#print axioms TropicalCurves.UnitLiftedCells.pullbackCell_no_new_vertices
+#print axioms TropicalCurves.UnitFlowPolytope.exists_flow_direction
+#print axioms TropicalCurves.UnitFlowPolytope.projectedSlots_no_new_vertices
+#print axioms TropicalCurves.UnitBoxPerturbation.exists_two_sided_box_perturbation
+#print axioms TropicalCurves.UnitCube.extremePoints_cube
+#print axioms TropicalCurves.UnitCube.sourceFace_isExtreme
+#print axioms TropicalCurves.UnitJacobian.class_eq_iff_cover_shift
+#print axioms TropicalCurves.UnitHarmonic.integration_eq_zero_iff
+#print axioms TropicalCurves.UnitHarmonic.coverEquiv
+#print axioms TropicalCurves.UnitHarmonic.jacobianEquiv
+#print axioms TropicalCurves.UnitRoutes.routes_of_connected
+#print axioms TropicalCurves.UnitRoutes.VertexRoutes.endpoint_class
+#print axioms TropicalCurves.UnitAbelMap.divisorClass_edgeAbelDivisor_of_vertexSupported
+#print axioms TropicalCurves.UnitAbelMap.divisorClass_pseudoDivisor
+#print axioms TropicalCurves.UnitAbelMap.degree_pseudoDivisor
+#print axioms TropicalCurves.UnitAbelMap.divisorClass_route_independent
+#print axioms TropicalCurves.UnitPseudoDivisor.IsQuasistableType.degree_eq
+#print axioms TropicalCurves.UnitCellConvexity.pullbackCell_convex
+#print axioms TropicalCurves.UnitCellConvexity.pullbackCell_isCompact
+#print axioms TropicalCurves.UnitCellConvexity.pullbackCell_eq_convexHull_corners
+#print axioms TropicalCurves.UnitLengthModel.eq_unitGraph_endpointGraph

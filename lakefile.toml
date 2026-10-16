@@ -1,0 +1,14 @@
+name = "tropical-curves"
+version = "0.2.0"
+defaultTargets = ["TropicalCurves"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.19.0"
+
+[[lean_lib]]
+name = "TropicalCurves"
